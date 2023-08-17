@@ -88,15 +88,15 @@ local function get_jdtls_paths()
 		-- This example assume you are using sdkman: https://sdkman.io
 		{
 			name = 'JavaSE-1.8',
-			path = vim.fn.expand('/usr/lib/jvm/java-8-openjdk')
+			path = vim.fn.expand('java-1.8.0-openjdk-1.8.0.372.b07-6.fc38.x86_64')
 		},
 		{
 			name = 'JavaSE-11',
-			path = vim.fn.expand('/usr/lib/jvm/java-11-openjdk')
+			path = vim.fn.expand('java-11-openjdk-11.0.20.0.8-1.fc38.x86_64')
 		},
 		{
 			name = 'JavaSE-17',
-			path = vim.fn.expand('/usr/lib/jvm/java-17-openjdk')
+			path = vim.fn.expand('java-17-openjdk-17.0.8.0.7-1.fc38.x86_64')
 		},
 	}
 
