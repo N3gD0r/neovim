@@ -17,7 +17,6 @@ lsp.ensure_installed({
         'jdtls',
         'lua_ls',
         'pylsp',
-        'pylyzer',
         'volar',
         'yamlls'
 })
